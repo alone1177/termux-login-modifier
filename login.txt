@@ -1,0 +1,16 @@
+echo "Login:" `date` >> $HOME/login_history.txt
+
+pkg update -y && pkg upgrade -y
+pkg autoclean
+clear
+apt update -y && apt upgrade -y
+apt autoremove
+clear
+
+figlet "WELCOME"
+sleep 1
+clear
+cal
+sleep 1
+clear
+figlet "ALONE"
