@@ -3,14 +3,13 @@
 Packages you need:
      pkg install curl
 
-• step1:
-    curl -o https://raw.githubusercontent.com/alone1177/termux-login-modifier/main/login.txt
+• steps:
 
-• step2:
-    cat login.txt >> $HOME/../usr/etc/termux-login.sh
+curl -o https://raw.githubusercontent.com/alone1177/termux-login-modifier/main/login.txt
 
-• step3:
-    exit the termux. And open again.
+cat login.txt >> $HOME/../usr/etc/termux-login.sh
 
-• step4:
-    Done !
+exit the termux. And open again.
+
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
