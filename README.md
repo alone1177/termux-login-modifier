@@ -18,4 +18,5 @@ Packages you need:
 "Available":
 
 • you can see your login_history
+
 • termux auto upadte mode. `pkg` and `apt`
