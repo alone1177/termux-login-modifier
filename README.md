@@ -1,7 +1,8 @@
 # termux-login-modifier
 
 Packages you need:
-     pkg install curl
+
+pkg install curl figlet -y
 
 • steps:
 
@@ -13,3 +14,6 @@ exit the termux. And open again.
 
 
 °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+• you can see your login_history
+• termux auto upadte mode. `pkg` and `apt`
